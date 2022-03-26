@@ -1,0 +1,62 @@
+main > article {
+    padding: 104px 0 0 122px;
+    margin-right: 123px;
+
+}
+
+@media only screen and (max-width: 429px) {
+    main > article {
+        display: block;
+        padding: 50px 20px 0;
+    }
+}
+
+article h1{
+    margin: 0 0 69px;
+    color: #FFA000;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
+.receitas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.link-receita{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 345px;
+    margin: 0 0 116px;
+}
+
+.link-receita img{
+    width: 345px;
+    height: 342px;
+    display: block;
+    margin: 0 0 12px;
+}
+
+.link-receita span{
+    font-size: 26px;
+    font-weight: 600;
+    display: block;   
+    margin: 0 0 24px;
+    text-align: center; 
+    text-transform: lowercase;
+    width: 100%;
+}
+
+.link-receita a{
+    color: #FFFFFF;
+    background: #176902;
+    font-size:  24px;
+    font-weight: 700;
+    padding:10px 43px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+}
